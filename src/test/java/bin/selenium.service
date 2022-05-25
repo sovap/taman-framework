@@ -1,0 +1,10 @@
+# /etc/systemd/system/selenium.service
+
+[Unit]
+Description=Selenium standalone server for Test Automation
+
+[Service]
+Type=simple
+User=root
+
+ExecStart=/usr/bin/java -jar /opt/sovap/selenium/selenium-server-standalone-3.141.59.jar -port 12001 > /opt/sovap/selenium/selenium.log 2> /opt/sovap/selenium/selenium.error.log &

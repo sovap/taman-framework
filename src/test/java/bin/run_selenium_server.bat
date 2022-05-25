@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=C:\Users\sovap\Projects\ta-opc\src\test\java\bin\chromedriver.exe -jar selenium-server-standalone-3.141.59.jar -port 4545

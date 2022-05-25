@@ -1,0 +1,16 @@
+# ignored folders
+.idea/
+.metadata/
+.settings/
+target/
+src/test/resources/tools/
+
+# ignored eclipse files
+.classpath
+.project
+*.iml
+
+# ignored feature files
+src/test/resources/features/Test.feature
+
+
